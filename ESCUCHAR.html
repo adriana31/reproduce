@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.3.2.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.3.2.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.3.2.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>°°°MUSICA°°°</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+            <li><a href="#page3">"Sabes"</a></li>
+			<li><a href="#page4">"Con Solo Verte"</a></li>
+            <li><a href="#page5">"In Really"</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Sabes</h1>
+	</div>
+	<div data-role="content">
+	  <p>&nbsp;</p>
+	  <p>
+	    <embed src="sabes.mp3" width="623" height="67"></embed>
+	  </p>
+	</div>
+	<div data-role="footer">
+	  <h4>Click derecho para guardar</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Con Soló Verte</h1>
+	</div>
+	<div data-role="content">
+	  <p>&nbsp;</p>
+	  <p>
+	    <embed src="SOLO CON VERTE.mp3" width="618" height="63"></embed>
+	  </p>
+	</div>
+	<div data-role="footer">
+	  <h4>Click derecho para guardar</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>In Really</h1>
+	</div>
+	<div data-role="content">
+	  <p>&nbsp;</p>
+	  <p>
+	    <embed src="demi.mp3" width="624" height="50"></embed>
+	  </p>
+	</div>
+	<div data-role="footer">
+	  <h4>Click derecho para guardar</h4>
+	</div>
+</div>
+
+</body>
+</html>

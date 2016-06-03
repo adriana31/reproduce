@@ -1,0 +1,14 @@
+@charset "utf-8";
+.formato {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #FFF;
+	background-color: #06C;
+	text-align: center;
+}
+titulo {
+	font-family: "Comic Sans MS", cursive;
+	color: #FF0;
+	background-color: #09F;
+}
